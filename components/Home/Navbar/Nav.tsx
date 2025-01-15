@@ -15,16 +15,29 @@ const Nav = () => {
           width={170}
           height={170}
           className="ml-[1.5rem] sm:ml-0"
-              />
-              
-              {/* Navlinks */}
-              <div className="flex items-center space-x-10">
-                  {navLinks.map((navlink) => {
-                      return <Link key={navlink.id} href={navlink.url}>
-                          <p className="nav__link">{navlink.label}</p>
-                      </Link>
-                  })}
-              </div>
+        />
+
+        {/* Navlinks */}
+        <div className="flex items-center space-x-10">
+          <div className="hidden md:flex items-center space-x-8">
+            {navLinks.map((navlink) => {
+              return (
+                <Link key={navlink.id} href={navlink.url}>
+                  <p className="nav__link">{navlink.label}</p>
+                </Link>
+              );
+            })}
+          </div>
+          {/* Button */}
+          <div className="flex items-center space-x-4">
+            <button
+              className="md:px-10 md:py-3 px-8 py-3 text-blue-800 font-semibold sm:text-base text-sm bg-white
+                      hover:bg-gray-200 transition-all duration-200 rounded-lg"
+            >
+              Hire me
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   );
