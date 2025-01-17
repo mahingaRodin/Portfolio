@@ -33,7 +33,7 @@ const Hero = () => {
             <Image
               src={BaseInfo.profilePic}
               alt={BaseInfo.name}
-              width={300}
+              width={500}
               height={300}
             />
           </div>
