@@ -1,6 +1,9 @@
+"use client";
 import SectionHeading from "@/components/Helper/SectionHeading"
 import React from 'react'
 import Slider from "./Slider"
+import Carousel from 'react-multi-carousel';
+import "react-multi-carousel/lib/styles.css";
 
 const Reviews = () => {
   return (
