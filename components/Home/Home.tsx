@@ -1,21 +1,13 @@
-// components/Home/Home.tsx
-"use client";
-import React, { useState } from "react";
-import Nav from "./Navbar/Nav";
+import React from "react";
+import Hero from "./Hero/Hero";
 
 const Home = () => {
-  const [isNavOpen, setIsNavOpen] = useState(false);
-
-  const openNav = () => {
-    setIsNavOpen(true);
-  };
-
   return (
-    <div className="h-[1000px]">
-      <Nav openNav={openNav} />
-      Home
+    <div className="overflow-hidden">
+      <Hero />
     </div>
   );
+
 };
 
 export default Home;
