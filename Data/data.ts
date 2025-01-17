@@ -1,8 +1,8 @@
  export const BaseInfo = {
-   name: "Sajal",
-   position: "Full Stack Web Developer",
+   name: "Rodin",
+   position: "Full Stack Dev",
    description:
-     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro numquam ad, vero consequuntur aperiam cumque voluptatum pariatur veniam? Qui facilis est ipsam odio cum!",
+     "I am a passionate and dedicated Software Developer with expertise in Java, C++, Embedded Systems, Cybersecurity, and AI. Currently honing my skills at Rwanda Coding Academy, I am focused on creating innovative solutions for various sectors, including healthcare and education. I have a solid foundation in developing mobile and web applications, as well as working on machine learning models for health prediction. My goal is to contribute to impactful projects that enhance people's lives, from improving healthcare accessibility to strengthening cybersecurity.!",
    profilePic: "/images/hero.png",
  };
 
