@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div className="h-[1000px]">
       <Nav openNav={openNav} />
-      {/* Add your other components here */}
+      Home
     </div>
   );
 };
