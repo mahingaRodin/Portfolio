@@ -29,16 +29,16 @@ const Slider = () => {
       arrows={true}
       autoPlay={true}
       autoPlaySpeed={5000}
-      responsive={responsive}
       infinite
-      >
-          {clientReviews.map((review) => {
-              return (
-                  <div key={review.image}>
-                      <ReviewCard review={review} />
-                  </div>
-              )
-          })}
+      responsive={responsive}
+    >
+      {clientReviews.map((review) => {
+        return (
+          <div key={review.image}>
+            <ReviewCard review={review} />
+          </div>
+        );
+      })}
     </Carousel>
   );
 };

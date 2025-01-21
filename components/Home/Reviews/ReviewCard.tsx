@@ -24,11 +24,18 @@ const ReviewCard = ({ review }: Props) => {
           alt="image"
           width={50}
           height={50}
+        />
+        <p className="text-white text-opacity-70">{clientReview}</p>
+        <Image
+          src="/images/q.png"
+          alt="image"
+          width={50}
+          height={50}
           className="ml-auto"
         />
       </div>
       <div className="px-6 py-3 mb-3 w-fit mx-auto rounded-full flex items-center space-x-3 bg-indigo-900 text-white font-bold">
-        <span>{rating}</span>
+        <span>{rating}/5</span>
         <FaStar className="text-yellow-500" />
       </div>
       <div className="bg-gray-100">
