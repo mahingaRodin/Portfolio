@@ -117,33 +117,33 @@ export const projectData = [
 export const skillsData = [
   {
     id: 1,
-    title: "React",
-    image: "/images/react.svg",
+    title: "Java",
+    image: "/images/java.svg",
     percent: "90%",
   },
   {
     id: 2,
-    title: "CSS",
-    image: "/images/css.svg",
+    title: "SpringBoot",
+    image: "/images/spring.svg",
     percent: "97%",
   },
   {
     id: 3,
-    title: "JavaScript",
-    image: "/images/js.svg",
-    percent: "77%",
+    title: "C++",
+    image: "/images/cpp.svg",
+    percent: "89%",
   },
   {
     id: 4,
-    title: "TypeScript",
-    image: "/images/ts.svg",
-    percent: "67%",
+    title: "Python",
+    image: "/images/python.svg",
+    percent: "87%",
   },
   {
     id: 5,
-    title: "HTML",
-    image: "/images/html.svg",
-    percent: "67%",
+    title: "Angular",
+    image: "/images/angular.svg",
+    percent: "79%",
   },
   {
     id: 6,
@@ -153,41 +153,41 @@ export const skillsData = [
   },
   {
     id: 7,
-    title: "MongoDB",
-    image: "/images/mongo.svg",
-    percent: "65%",
-  },
-  {
-    id: 8,
-    title: "Python",
-    image: "/images/python.svg",
-    percent: "55%",
-  },
-  {
-    id: 9,
-    title: "Firebase",
-    image: "/images/firebase.svg",
+    title: "MySQL",
+    image: "/images/mysql.svg",
     percent: "75%",
   },
   {
+    id: 8,
+    title: "React",
+    image: "/images/react.svg",
+    percent: "65%",
+  },
+  {
+    id: 9,
+    title: "Docker",
+    image: "/images/docker.svg",
+    percent: "63%",
+  },
+  {
     id: 10,
-    title: "Vue",
-    image: "/images/vue.svg",
-    percent: "35%",
+    title: "Php",
+    image: "/images/php.svg",
+    percent: "55%",
   },
 ];
 
 export const clientReviews = [
   {
-    name: "John Doe",
+    name: "Ihirwe Patrick",
     review:
       "Exceptional service! The team delivered exactly what we needed on time. Very professional",
     rating: 5,
-    profession: "Marketing Manager",
+    profession: "Front End Manager",
     image: "/images/u1.jpg",
   },
   {
-    name: "Jane Smith",
+    name: "Jean Calvin",
     review:
       "Highly skilled developers who understand the client's vision and execute perfectly.",
     rating: 4.8,
@@ -195,7 +195,7 @@ export const clientReviews = [
     image: "/images/u2.jpg",
   },
   {
-    name: "Michael Johnson",
+    name: "Shema Leandre",
     review:
       "Great communication and excellent results. Our new site performs beautifully.",
     rating: 4.6,
@@ -203,7 +203,7 @@ export const clientReviews = [
     image: "/images/u3.jpg",
   },
   {
-    name: "Emily Brown",
+    name: "Kwizera Alain",
     review:
       "Professional, efficient, and highly knowledgeable. Would definitely recommend their services!",
     rating: 4.9,
