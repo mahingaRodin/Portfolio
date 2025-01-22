@@ -100,7 +100,7 @@ export const projectData = [
   {
     id: 6,
     image: "/images/p6.png",
-    url: "https://job-chi-ruby.vercel.app/",
+    url: "https://github.com/mahingaRodin/fullStack_HotelManagement_System/tree/main",
   },
   {
     id: 7,
