@@ -2,18 +2,18 @@ export const BaseInfo = {
   name: "Rodin",
   position: "Software Engineer",
   description:
-    "I am a passionate Software Developer skilled in Java, C++, Cybersecurity, and AI, currently studying at Rwanda Coding Academy. I focus on creating impactful solutions, including healthcare apps, educational systems, and AI models. My goal is to enhance lives through innovative technology and meaningful projects!",
+    "I am a passionate Software Engineer skilled in Java, C++, Cybersecurity, and AI, currently studying at Rwanda Coding Academy. I focus on creating impactful solutions, including healthcare apps, educational systems, and AI models. My goal is to enhance lives through innovative technology and meaningful projects!",
   profilePic: "/images/hero.png",
 };
 
 export const aboutInfo = {
-  title: "Crafting Web Application with Passion and Precision",
+  title: "Crafting Software Solutions with Passion and Precision",
   description:
-    "At webdev warriors, we’re a dedicated team of designers and developers committed to delivering tailored web solutions. With a blend of creativity and technical expertise, we help businesses elevate their online presence and achieve their goals",
-  client: "50+",
-  experience: "3+",
-  project: "200+",
-  website: "100+",
+    "I am part of a dedicated team of software engineers and developers, focused on delivering custom software solutions. By combining creativity with technical expertise, we empower businesses to enhance their online presence and achieve their strategic objectives.",
+  client: "10+",
+  experience: "2+",
+  project: "15+",
+  website: "8+",
 };
 
 export const servicesData = [
@@ -165,14 +165,14 @@ export const skillsData = [
   },
   {
     id: 9,
-    title: "Docker",
-    image: "/images/docker.svg",
+    title: "CyberSecurity",
+    image: "/images/cybersec.svg",
     percent: "63%",
   },
   {
     id: 10,
-    title: "Php",
-    image: "/images/php.svg",
+    title: "Docker",
+    image: "/images/docker.svg",
     percent: "55%",
   },
 ];
@@ -192,7 +192,7 @@ export const clientReviews = [
       "Highly skilled developers who understand the client's vision and execute perfectly.",
     rating: 4.8,
     profession: "Business Owner",
-    image: "/images/u2.jpg",
+    image: "/images/u2.png",
   },
   {
     name: "Shema Leandre",
@@ -200,7 +200,7 @@ export const clientReviews = [
       "Great communication and excellent results. Our new site performs beautifully.",
     rating: 4.6,
     profession: "Project Coordinator",
-    image: "/images/u3.jpg",
+    image: "/images/",
   },
   {
     name: "Kwizera Alain",
@@ -208,7 +208,7 @@ export const clientReviews = [
       "Professional, efficient, and highly knowledgeable. Would definitely recommend their services!",
     rating: 4.9,
     profession: "Creative Director",
-    image: "/images/u4.jpg",
+    image: "/images/",
   },
 ];
 
@@ -240,7 +240,7 @@ export const blogs = [
 ];
 
 export const contactData = {
-  phone: "+88(012345 789)",
-  email: "example@gmail.com",
-  address: "Dhaka , Bangladesh",
+  phone: "+250(793 216 126)",
+  email: "mahingarodin@gmail.com",
+  address: "Kigali, Rwanda",
 };
