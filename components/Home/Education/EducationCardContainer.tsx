@@ -1,12 +1,12 @@
 import React from "react";
 import EducationCard from "./EducationCard";
 
+// Sample Education Data
 const education = [
   {
     id: 1,
     title: "Primary Level",
-    summary:
-      "Took my primary Level Education at Kigali Pacific College.",
+    summary: "Took my primary Level Education at Kigali Pacific College.",
     date: "2014-2020",
     image: "/images/frontend.jpg",
   },
@@ -22,7 +22,7 @@ const education = [
     id: 3,
     title: "Advanced Level",
     summary:
-      "Taking my Advanced Education in Rwanda Coding Academy where am learning Software Engineering and Embedded Systems and Cyber Security.",
+      "Taking my Advanced Education in Rwanda Coding Academy where I am learning Software Engineering, Embedded Systems, and Cyber Security.",
     date: "Currently",
     image: "/images/fullstack.jpg",
   },
@@ -31,8 +31,8 @@ const education = [
 const EducationCardContainer = () => {
   return (
     <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-      {education.map((education) => (
-        <EducationCard key={education.id} blog={education} />
+      {education.map((edu) => (
+        <EducationCard key={edu.id} blog={edu} />
       ))}
     </div>
   );
