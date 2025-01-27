@@ -4,12 +4,12 @@ import "./globals.css";
 import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
 
 const font = Sora({
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800'],
-  subsets: ['latin']
-})
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
+  subsets: ["latin"],
+});
 export const metadata: Metadata = {
-  title: "Dev Portfolio",
-  description: "Dev Portfolio with NextJS",
+  title: "MAHINGA",
+  description: "Personal Portfolio built with NextJS",
 };
 
 export default function RootLayout({
@@ -19,9 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={font.className}
-      >
+      <body className={font.className}>
         <ResponsiveNav />
         {children}
       </body>
