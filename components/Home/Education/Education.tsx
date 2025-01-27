@@ -1,23 +1,23 @@
-import SectionHeading from "@/components/Helper/SectionHeading"
-import { blogs } from "@/Data/data"
-import React from 'react'
-import BlogCard from "./EducationCard"
+import SectionHeading from "@/components/Helper/SectionHeading"; // Assuming you have this component
+import { education } from "@/constant/data"; // Importing the education data from data.ts
+import React from "react";
+import EducationCard from "./EducationCard"; // Importing the EducationCard component
 
-const Blog = () => {
+const Education = () => {
   return (
-      <div className="pt-16 pb-16 bg-[#0f0715]">
-          <SectionHeading>My Education</SectionHeading>
-          <div className="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-12 items-center">
-              {blogs.map((blog) => {
-                  return (
-                      <div key={blog.id}>
-                          <BlogCard blog={blog} />
-                    </div>
-                )
-            })}               
-          </div>
-  </div>
-  )
-}
+    <div className="pt-16 pb-16 bg-[#0f0715]">
+      <SectionHeading>My Education</SectionHeading>
+      <div className="w-[80%] mx-auto mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-12 items-center">
+        {education.map((education) => {
+          return (
+            <div key={education.id}>
+              <EducationCard education={education} />
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+};
 
-export default Blog
+export default Education;
