@@ -56,8 +56,12 @@ const ContactForm = () => {
           rows={7}
           placeholder="Message"
         ></textarea>
-        <div className="">
-
+        <div className="mt-4">
+          <button
+          className="px-8 py-3.5 bg-[#7947df] text-white hover:bg-[#5c3fb7] transition-all"
+          >
+            Message
+      </button>
         </div>
       </form>
     </div>
