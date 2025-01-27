@@ -5,7 +5,7 @@ import Services from "./Services/Services";
 import Project from "./Project/Project";
 import Skills from "./Skills/Skills";
 import Reviews from "./Reviews/Reviews";
-import Blog from "./Blog/Blog";
+import Blog from "./Education/Education";
 import Contact from "./Contact/Contact";
 
 const Home = () => {
