@@ -22,6 +22,23 @@ const Nav = ({ openNav }: Props) => {
     return () => window.removeEventListener("scroll", handler);
   }, []);
 
+  const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    e.preventDefault();
+    const targetId = href.replace("#", "");
+    const element = document.getElementById(targetId);
+    
+    if (element) {
+      const navHeight = 96; // This is equivalent to h-[12vh] (12% of viewport height)
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - navHeight;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
+      });
+    }
+  };
+
   return (
     <div
       className={`fixed ${
@@ -45,7 +62,11 @@ const Nav = ({ openNav }: Props) => {
         <div className="flex items-center space-x-10">
           <div className="hidden md:flex items-center space-x-8">
             {navLinks.map((navlink) => (
-              <Link key={navlink.id} href={navlink.url}>
+              <Link 
+                key={navlink.id} 
+                href={navlink.url}
+                onClick={(e) => handleScroll(e, navlink.url)}
+              >
                 <p className="nav__link">{navlink.label}</p>
               </Link>
             ))}

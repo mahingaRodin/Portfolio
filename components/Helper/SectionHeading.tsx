@@ -1,4 +1,3 @@
-import { aboutInfo } from "@/Data/data";
 import React, { ReactNode } from "react";
 
 //define props
